@@ -113,7 +113,7 @@ h3{
     }
     .correcta{
         animation: correct-li 2300ms ease-out 3000ms;
-        width:100%
+        width:100%;
         animation-fill-mode: forwards;
     }   
     
