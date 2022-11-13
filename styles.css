@@ -46,7 +46,7 @@
         display: flex;
     justify-content: space-between;
     height: 15vh;
-    font-size: 14px;
+    font-size: 17px;
     animation: p-load 800ms ease-out 2000ms;
     animation-fill-mode: forwards;
 }
@@ -79,7 +79,7 @@ h3{
     li{
         padding-left: 10px;
         padding-bottom: 20px;
-        font-size: 14px;
+        font-size: 17px;
         
     }
     footer{
@@ -195,7 +195,7 @@ h3{
     }
 }
 }
-@media(min-width:373px){
+@media(min-width:376px){
     p{
         font-size:19px
     }
