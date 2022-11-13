@@ -279,7 +279,51 @@ h3{
     }
 
 } 
-@media(min-height:700){
+@media(max-height:550px){
+    @keyframes correct{
+        0%{
+            
+            
+            transform: translateY(0px)
+            
+        }
+        100%{
+            
+            transform: translateY(-150px);
+            
+            
+        }
+    }
+    p{
+        font-size: 11px;
+
+    }
+    li{
+        font-size: 11px;
+
+    }
+    h3{
+        font-size: 13px;
+    }
+      @keyframes description {
+        0%{
+            opacity: 0;
+            font-size: 0px;
+            
+            
+        }
+        99%{
+            font-size: 0px;
+        }
+        
+        100%{
+            opacity: 1 ;
+            font-size: 11px;
+        }
+    }
+    
+}
+@media(min-height:700px){
     @keyframes correct{
         0%{
             
